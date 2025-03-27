@@ -5,7 +5,6 @@
 ## Overview
 This project demonstrates how to deploy a scalable WordPress application on **AWS ECS (Elastic Container Service)** using **Terraform**. The infrastructure is designed to be highly available, secure, and scalable, following best practices for cloud deployment.
 
-## Architecture
 ### **AWS Services Used:**
 - **Amazon VPC**: A custom Virtual Private Cloud (VPC) with public and private subnets.
 - **ECS (Elastic Container Service)**: Runs WordPress containers.
@@ -44,7 +43,7 @@ This project demonstrates how to deploy a scalable WordPress application on **AW
  terraform apply -auto-approve
 ```
 
-### **5. Deploy the Infrastructure with ECS**
+### **5. Deploy the ECS Cluster**
 ```sh
  cd Deploying-a-Scalable-WordPress-Application-on-AWS-ECS-with-Terraform/ecs/
  terraform apply -auto-approve
