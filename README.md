@@ -72,7 +72,7 @@ To remove all created AWS resources:
 │   ├── network             # VPC, subnets, NAT,
 │   ├── rds                 # MySQL database setup
 │   ├── security            # Security Group setup
-├── ecs                     # Main Terraform configuration (Install ECS from here)
+├── ecs                     # ECS Cluster Configuration (Install ECS from here)
 ├── main.tf                 # ECS configuration
 ├── variables.tf            # Input variables for Terraform
 ├── outputs.tf              # Outputs for Terraform
